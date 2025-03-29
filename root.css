@@ -1,0 +1,41 @@
+@import url("navbar/navbar.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+/* font-family: "Merienda", serif; */
+
+:root {
+  --babyBlue: #bfd7ed;
+  --lightBlue: #60a3d9;
+  --blue: #0074b7;
+  --darkBlue: #003b73;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merienda", serif;
+}
+
+body {
+  font-family: "Merienda", serif;
+}
+
+.banner {
+  height: 85vh;
+}
+.ui-dialog-titlebar.ui-widget-header {
+  background: var(--babyBlue) !important;
+  text-align: center;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.select-item {
+  border: 5px solid forestgreen !important;
+}
+
+#main-container {
+  background: var(--babyBlue);
+}
